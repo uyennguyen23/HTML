@@ -1,0 +1,27 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header h1, header ul, header li{
+    display: inline;
+}
+header ul li a{
+    float: right;
+    color: pink;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+    transition: all 0.5s ease 0.2s;
+    border-radius: 10px;
+}
+
+header ul li a:hover{
+    background-color: #00BFFF;
+    border-radius: 20px;
+
+}
+
+

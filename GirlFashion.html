@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fashion</title>
+  <style>
+    .menu {
+      background-color: navy;
+      display: inline-block;
+    }
+
+    .menu a {
+      display: inline-block;
+      color: lightpink;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+    
+    .menu a:hover {
+      background-color: deeppink;
+    }
+    .image_grid{
+      display: grid;
+      grid-template-columns: 25% 25% 50%;
+      gap: 30px;
+    }
+    .image1 {
+      text-align: left;
+      color: deeppink;
+    }
+    .btn {
+      border: none;
+      color: white;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .success {background-color: darkslateblue}
+    .success:hover {background-color: navy}
+
+  </style>
+
+</head>
+<body>
+  <center>
+    <div class="menu">
+      <a href="">All</a>
+      <a href="">Clothings</a>
+      <a href="">Bags</a>
+      <a href="">Shoes</a>
+      <a href="">Watches</a>
+      <a href="">Googles</a>
+    </div>
+  </center>
+  <h2> WOMEN'S PRODUCT</h2>
+  <hr  width="25%" size="3px" align="left" color="black" />
+  <div class="image_grid">
+  <div class="image1">
+    <img style="max-width: 100%" height="400px" src="graphics/g2.jpg" alt="image1">
+    <h4>Dress</h4>
+    <hr  width="90%" size="0.1px" align="left" color="grey" >
+    <h4>$100.00</h4>
+    <h4><del>$50</del></h4>
+    <button class="btn success" style="float:right">Add to card</button>
+  </div>
+  <div class="image1">
+    <img style="max-width: 100%" height="400px" src="graphics/g1.jpg" alt="image2">
+    <h4>Hat</h4>
+    <hr  width="90%" size="0.1px" align="left" color="grey" >
+    <h4>$70</h4>
+    <h4><del>$50</del></h4>
+    <button class="btn success" style="float:right">Add to card</button>
+  </div>
+  <div id="image3">
+    <img style="max-width: 100%" src="graphics/g3.jpg" alt="image3">
+  </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.image_head img{
+    display: block;
+    transition: all .3s ease;
+}
+
+.image_head img:hover{
+    transform: scale(1.5);
+}
+
+.image_head p{
+    display: block;
+    overflow: hidden;
+}
+
