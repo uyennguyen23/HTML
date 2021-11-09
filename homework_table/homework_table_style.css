@@ -1,0 +1,56 @@
+.container{
+    display:table;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+
+.heading{
+    background-color: darkblue;
+    color: lawngreen;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    display: table-row;
+}
+
+.table-row{
+    display: table-row;
+    text-align: center;
+}
+
+.col{
+    display: table-cell;
+    border: 1px solid pink;
+    transition: all .3s ease;
+}
+.col:hover{
+    background-color: darkred;
+    border-radius: 5px;
+}
+.col-1{
+    display: table-cell;
+    background-color: wheat;
+    border: 1px solid pink;
+}
+.col-2{
+    display: table-cell;
+    background-color: antiquewhite;
+    border: 1px solid pink;
+}
+.col-3{
+    display: table-cell;
+    background-color: antiquewhite;
+    border-bottom: 1px solid pink;
+    border-top: 1px solid pink;
+    text-align: right;
+}
+.col-4{
+    display: table-cell;
+    background-color: wheat;
+    border-bottom: 1px solid pink;
+    border-top: 1px solid pink;
+    text-align: right;
+}
+
