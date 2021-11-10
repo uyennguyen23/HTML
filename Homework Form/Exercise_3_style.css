@@ -1,0 +1,31 @@
+.container{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.input-container{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon{
+    font-size: 30px;
+    color: deeppink;
+    min-width: 40px;
+    text-align: center;
+}
+
+
+.input-field{
+    width: 300px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+.input-field:focus {
+    border: 2px solid hotpink;
+}
+

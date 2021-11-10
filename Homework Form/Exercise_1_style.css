@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container table, td, th{
+    border: 2px solid purple;
+}
+
+.r-b{
+    border: 1px solid blueviolet;
+}
+
+.s-bg{
+    background-color: lightgrey;
+    transition: all 0.3s ease;
+}
+.s-bg:hover{
+    background-color: cadetblue;
+
+}
