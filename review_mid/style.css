@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+*{
+    /*justify-content: space-between;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    /*background-color: aqua;*/
+}
+.header-ele{
+    width: inherit;
+    height: 55%;
+    /*background-color: aquamarine;*/
+    display: flex;
+    justify-content: space-between;
+}
+.ele-left{
+    height: 100%;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    font-size: 40px;
+    color: hotpink;
+    display: flex;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+.logo .fab{
+    font-size: 55px;
+    color: deeppink;
+    margin: auto;
+}
+.hagtag{
+    /*background-color: #076cca;*/
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+
+}
+.hagtag a{
+    margin: auto;
+    border: 2px solid transparent;
+    border-image-source:  linear-gradient(to right bottom, red 20%, blue);
+    border-radius: 24px;
+    border-image-slice: 1;
+    padding: 3px 18px;
+    font-size: 20px;
+    color: deeppink;
+}
+.ele-right{
+    height: 100%;
+    width: 50%;
+    font-size: 15px;
+    display: flex;
+    margin-right: 20px;
+}
+.news, .event,.search-bar, .far, .link{
+    display: flex;
+    margin: auto;
+    padding: 0 10px;
+}
+.far{
+    font-size: 27px;
+    padding: 0 1px;
+    color: lightcoral;
+}
+
+
+.link a{
+    margin: auto;
+    font-size: 20px;
+}
+.search-bar input{
+    height: 50%;
+    width: calc(100% - 19px);
+    border: none;
+    outline: none;
+    /*display: inline;*/
+}
+label{
+    width: 100%;
+    margin: auto 0;
+}
+.search-bar {
+    border-radius: 15px;
+    height: 60%;
+    width: 50%;
+    border:2px solid pink;
+}
+.search-bar:active{
+    border: 2px solid deeppink;
+}
+
+
+
+/*#########################################################*/
+
+.header-nav{
+    background-color: #E6003E;
+    height: 45%;
+    width: 100%;
+}
+
+.header-nav ul{
+    height: 100%;
+    display: flex;
+}
+.header-nav ul li{
+    width: 10%;
+    display: flex;
+    height: 100%;
+
+}
+.nav-link{
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+/*######*/
+
+main{
+    width: 100vw;
+    max-width: 1402px;
+    height: 1000px;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.container{
+    /*max-width: 1400px;*/
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    column-gap: 20px;
+}
+.big-news{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    row-gap: 20px;
+}
+.main-new{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+#img-a{
+    background-size: cover;
+    background: url("https://vnn-imgs-f.vgcloud.vn/2021/11/12/08/son-tung-m-tp-noi-loi-ngot-ngao-gui-toi-hai-tu-nhan-dip-sinh-nhat.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#img-b{
+    background-size: cover;
+    background: url("https://photo-cms-kienthuc.zadn.vn/zoom/800/uploaded/thutrang/2021_01_21/5/giua-tam-bao-tra-xanh-hai-tu-bi-dao-mo-anh-nhay-cam-hinh-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.a-new{
+    width: 100%;
+    height: 100%;
+}
+#text-new{
+    background: linear-gradient(to right, deeppink 30%,darkblue );
+    color: white;
+    /*overflow: visible;*/
+    word-wrap: break-word;
+    display: flex;
+}
+.main-text{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    max-width: 314.45px;
+}
+.main-text h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.main-text p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.site{
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-rows: 7fr 2fr;
+    row-gap: 20px;
+    margin-right: 10px;
+}
+.site-1{
+    width: 100%;
+    height: 100%;
+}
+.site-head{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to right, deeppink 30%,darkblue );
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.site-menu{
+    width: 100%;
+    height: calc(100% - 40px);
+}
+.site-menu ul{
+    width: 100%;
+    height: 100%;
+}
+.menu-link{
+    width: 85%;
+    height: 12%;
+    color: black;
+    display: flex;
+}
+.menu-link a{
+    margin: auto 20px;
+    font-size: 20px;
+}
+.site-2{
+    width: 100%;
+    height: 100%;
+}
+.site-menu-extra{
+    width: 100%;
+    height: calc(100% - 40px);
+}
+.site-menu-extra ul{
+    width: 100%;
+    height: 100%;
+}
+.menu-extra_link{
+    width: 90%;
+    height: 33.33%;
+    color: black;
+    display: flex;
+}
+.menu-extra_link a{
+    margin: auto 20px;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.extra-new{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 22px;
+}
+.a-extra-new{
+    width: 100%;
+    height: 100%;
+}
+.a-extra-new_img{
+    width: 100%;
+    height: 60%;
+}
+.topic-news a{
+    font-size: 17px;
+    color: red;
+}
+.head-extra-news a{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.head-extra-news h3{
+    margin:2px 0;
+}
+#img-1{
+    background-size: cover;
+    background: url("https://media-cdn.laodong.vn/storage/newsportal/2020/11/21/856238/Do-Thi-Ha.jpg?w=414&h=276&crop=auto&scale=both") no-repeat center center;
+}
+#img-2{
+    background-size: cover;
+    background: url("https://vtv1.mediacdn.vn/zoom/550_339/2021/7/26/team-han-sara-1-16272835690851466952221.jpg") no-repeat center center;
+}
+#img-3{
+    background-size: cover;
+    background: url("https://2sao.vietnamnetjsc.vn/images/2021/11/12/09/05/hai-tu-son-tung-02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.topic-news a:hover{
+    color: hotpink;
+}
