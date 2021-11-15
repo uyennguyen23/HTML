@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&family=Roboto+Slab:wght@300;400;500;700;800&family=Shippori+Antique+B1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;;
+}
+header{
+    width: 100%;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.head-on{
+    width: 100%;
+    height: 66.67%;
+    display: flex;
+}
+.head-under{
+    width: 100%;
+    height: 33.33%;
+    background-color: #2E3A47;
+}
+.head-on_left{
+    width: 25%;
+    height: 100%;
+}
+#logo{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+.head-on_middle{
+    width: 50%;
+    height: 100%;
+    margin: 30px 100px;
+}
+#search-bar{
+    width: 80%;
+    height: 30px;
+}
+#search-bar:active{
+    border: #5746EA;
+}
+#list{
+    width: 20%;
+    height: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+#search{
+    width: 30%;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+.head-on-right{
+    width: 25%;
+    height: 100%;
+}
+.head-under ul{
+    display: flex;
+}
+.head-under ul li{
+    margin: 6px 15px;
+}
+.head-under a{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+main{
+    width: 100%;
+    height: 700px;
+    margin: 15px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    column-gap: 30px;
+    row-gap: 10px;
+    margin-top: 6px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 30px;
+}
+.site-bar{
+    width: 100%;
+    height: 100%;
+    border: 2px solid green;
+}
+#site-head{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+.site-bar_link{
+    margin: 10px 5px;
+}
+
+.site-bar_link a{
+    font-size: 20px;
+    color: grey;
+}
+.banner{
+    width: 100%;
+    height: 90%;
+    grid-template-columns:  7fr 3fr;
+    display: grid;
+}
+.banner-left{
+    width: 100%;
+    height: 100%;
+    background: url("Graphics/veget.png");
+    background-size: cover;
+}
+.banner-right{
+    width: 100%;
+    height: 100%;
+    background: url("Graphics/tat-xanh.png");
+    background-size: cover;
+}
+.product{
+    width: 100%;
+    height: 100%;
+    background-color: #FD5F7E;
+}
