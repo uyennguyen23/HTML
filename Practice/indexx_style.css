@@ -39,6 +39,7 @@
     width: 100%;
     height: 100%;
     text-align: right;
+    color: orange;
 }
 
 .body div:nth-child(even):not(.body>*>*:nth-child(even)){
