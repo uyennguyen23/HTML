@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    align-items: center;
+}
+#h3-title{
+    float: left;
+}
+#h4-title{
+    float: right;
+    margin: 25px;
+}
+.thumbnail.right-caption > img {
+    float: left;
+    margin-right: 9px;
+}
+.thumbnail > img{
+    width: 80px;
+    height: 80px;
+}
+.thumbnail.right-caption {
+    float: left;
+}
+
+.thumbnail.right-caption > .caption {
+    padding: 4px;
+}
+.form-select{
+    width: 60px;
+}
+td>label{
+    display: flex;
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    align-items: center;
+}
+body{
+    margin: 0 30px;
+}
+.bar{
+    width: 100%;
+    height: 30px;
+    background-color: dodgerblue;
+}
+
+#h3-title{
+    float: left;
+}
+#h4-title{
+    float: right;
+}
