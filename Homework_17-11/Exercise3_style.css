@@ -5,18 +5,74 @@
     box-sizing: border-box;
     align-items: center;
 }
-body{
-    margin: 0 30px;
-}
 .bar{
-    width: 100%;
     height: 30px;
     background-color: dodgerblue;
 }
 
 #h3-title{
     float: left;
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
 #h4-title{
     float: right;
+    margin-right: 10px;
+    margin-bottom: 50px;
+
+}
+.picture-size{
+    width: 270px;
+    height: 350px;
+}
+select{
+    width: 90px;
+    height: 35px;
+}
+#picture-1-size{
+    width: 58px;
+    height: 56px;
+}
+#head-table-1{
+    width: 320px;
+    height: 40px;
+    border-left: 2px solid black;
+    padding: 7px;
+    border-right: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    font-size: 20px;
+}
+.layout-product{
+    display: grid;
+    width: 320px;
+    height: 100px;
+    grid-template-columns: 1fr 2.5fr;
+    margin-left: 30px;
+
+}
+.t-head{
+    font-size: 13px;
+    margin: 0;
+}
+
+.t-price{
+    font-size: 20px;
+    color:orange
+}
+#picture-2-size{
+    width: 56px;
+    height: 72px;
+}
+#picture-3-size{
+    width: 65px;
+    height: 45px;
+}
+#picture-4-size{
+    width: 56px;
+    height: 70px;
+}
+tr{
+    width: 250px;
+    border-bottom: 1px dashed lightgrey;
 }

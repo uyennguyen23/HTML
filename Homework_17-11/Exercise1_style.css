@@ -17,8 +17,9 @@
     margin-right: 9px;
 }
 .thumbnail > img{
-    width: 80px;
-    height: 80px;
+    max-width: 100px;
+    width: 100px;
+    height: 100%;
 }
 .thumbnail.right-caption {
     float: left;
@@ -32,4 +33,7 @@
 }
 td>label{
     display: flex;
+}
+#middle{
+    align-items: center;
 }
