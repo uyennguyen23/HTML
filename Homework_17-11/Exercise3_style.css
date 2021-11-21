@@ -33,7 +33,7 @@ select{
     width: 58px;
     height: 56px;
 }
-#head-table-1{
+.head-table{
     width: 320px;
     height: 40px;
     border-left: 2px solid black;

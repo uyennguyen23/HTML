@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+    height: 500px;
+}
+#input-1, #input-2, #input-3{
+    width: 60%;
+    height: 35px;
+    margin: 20px 0;
+}
+#textarea-size{
+    width: 80%;
+    max-width: 800px;
+    border: 1px solid lightgray;
+    height: 200px;
+}
