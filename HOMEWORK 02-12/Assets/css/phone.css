@@ -1,0 +1,52 @@
+*{
+    font-size: 20px;
+}
+.header p {
+    width: 250px;
+    display: inline-block;
+}
+
+.header p:last-child  {
+    width: 180px;
+    float: right;
+}
+
+
+.main{
+    display: flex;
+}
+.content h3{
+    text-align: left;
+}
+.content{
+    text-align: center;
+}
+.pro{
+    border: solid 1px;
+    padding: 40px 30px;
+    margin: 10px 50px;
+}
+.pro img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    box-sizing:content-box;   
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+#list-names {
+    position: absolute;
+    display: none;
+}
+
+.phone-name {
+    padding: 2px;
+    background-color: rgb(118, 253, 253);
+    border-bottom: 1px solid rgb(114, 113, 113);
+    width: 235px;
+    margin-left: 215px;
+}
